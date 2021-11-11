@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CricRush 2021</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.png">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">CricRush 2021</span>
+  </div>
+</nav>
+<div class="scorecard">
+  <h2>Runs Scored: <%= score %> </h2>
+  <h2>Balls Left:<%= balls %></h2>
+</div>
+<!-- <h1 class="temp"> <%= shot %> </h1> -->
+<h2><%= over %></h2>
+<!-- <section> -->
+  <!-- <form  action="/shotPlay" method="post"> -->
+  <!-- <div class="container-fluid">
+
+    <div class="row shots_panel">
+
+        <div class="col shot">
+          <img class="img" src="images/defence.png" alt="">
+          <button class="sbtn btn btn-dark" type="submit" name="shot" value="def"> <h3>defensive shot</h3> </button>
+        </div>
+
+        <div class="col shot">
+            <img class="img" src="images/attack.jpg" alt="">
+          <button class="btn btn-dark" type="submit" name="shot" value="att"> <h3>attacking shot</h3> </button>
+        </div>
+
+        <div class="col shot">
+            <img class="img" src="images/loft.png" alt="">
+          <button class="btn btn-dark" type="submit" name="shot" value="lof"> <h3>lofted shot</h3> </button>
+        </div>
+
+
+
+    </div>
+  </div> -->
+
+    <!-- </form> -->
+<!-- </section> -->
+
+<section>
+    <div class="container-fluid">
+
+<form  action="/shotPlay" method="post">
+    <div class="row shots_panel">
+
+      <div class="col shot">
+        <img class="img" src="images/defence.png" alt="">
+        <button class="sbtn btn btn-dark" type="submit" name="shot" value="def"> <h3>defensive shot</h3> </button>
+      </div>
+
+      <div class="col shot">
+          <img class="img" src="images/attack.jpg" alt="">
+        <button class="btn btn-dark" type="submit" name="shot" value="att"> <h3>attacking shot</h3> </button>
+      </div>
+
+      <div class="col shot">
+          <img class="img" src="images/loft.png" alt="">
+        <button class="btn btn-dark" type="submit" name="shot" value="lof"> <h3>lofted shot</h3> </button>
+      </div>
+
+
+
+
+
+
+    </div>
+  </form>
+
+</div>
+
+  </section>
+
+
+    <script src="javascript/style.js" charset="utf-8"></script>
+
+    <div class="footer">
+      <p>© Copyright 2021 CricRush</p>
+
+    </div>
+  </body>
+</html>

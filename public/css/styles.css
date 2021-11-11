@@ -1,0 +1,100 @@
+body{
+  height: 100%;
+}
+
+
+h1{
+font-family: 'Mochiy Pop One', sans-serif;}
+
+h3{
+  font-family: 'Lobster', cursive;
+}
+
+p{
+  color: white;
+}
+
+
+
+.login{
+  margin-top: 300px;
+}
+
+.shots_panel{
+  text-align: center;
+
+
+}
+
+.shot{
+  padding: 30px 40px;
+}
+
+
+
+.wicket-alert{
+text-align: center;
+  color: red;
+}
+.img{
+display: block;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: #F0E9D2;
+
+}
+.scorecard{
+  text-align: center;
+}
+/* .pressed{
+  visibility: visible;
+}
+h1{
+  visibility: hidden;
+} */
+.bottom{
+
+
+  background-color: black;
+  padding-top: 20px;
+
+
+}
+
+
+
+.play{
+  text-align: center;
+  /* position: absolute;
+    top: 50%; */
+
+margin-top: 200px;
+}
+.footer {
+  text-align: center;
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background-color: black;
+}
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background-color:#F0E9D2;
+
+}
+
+.container {
+   min-height:100%;
+   position:relative;
+
+}
+.tryAgainBtn{
+  margin-top: 100px;
+  text-align: center;
+}
